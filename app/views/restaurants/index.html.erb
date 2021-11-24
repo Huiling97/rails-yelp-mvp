@@ -9,6 +9,9 @@
       <div>
         <%= restaurant.category %> || <%= restaurant.phone_number %>
       </div>
+      <div>
+        <%= link_to "View more details", restaurant_path(restaurant) %>
+      </div>
     </li>
   <% end %>
 </ul>
